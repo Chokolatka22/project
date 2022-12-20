@@ -1,0 +1,618 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(109, 109, 109);
+    height: 100%;
+}
+
+html {
+height: 100%;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    background: rgb(56, 56, 56);
+}
+
+li {
+    display: inline-flex;
+}
+
+ul.hr {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 130px;
+    display: block;
+}
+
+ul.hr li {
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.razdel {
+    color: #ffffff;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.razdel:hover {
+    color: #fcc419;
+}
+
+.tgvk {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.tg {
+    margin-right: 20px;
+}
+
+.logotip {
+    margin-left: 20px;
+}
+
+.zagolovok {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e9e6e6;
+    font-weight: 50;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 23px;
+}
+
+.window1 {
+    display: flex;
+}
+
+.window1a {
+    width: 350px;
+    height: 250px;
+    border: 3px solid rgb(184, 176, 176);
+    border-radius: 10px;
+    background: #e9e6e6;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    position: relative;  
+}
+
+.window2 {
+    display: flex;
+}
+
+.window2a {
+    width: 350px;
+    height: 250px;
+    border: 3px solid rgb(184, 176, 176);
+    border-radius: 10px;
+    background: #e9e6e6;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    position: relative;  
+}
+
+.window3 {
+    display: flex;
+}
+
+.window3a {
+    width: 350px;
+    height: 250px;
+    border: 3px solid rgb(184, 176, 176);
+    border-radius: 10px;
+    background: #e9e6e6;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    position: relative;  
+}
+
+.afisha {
+    border-radius: 8px 0 0 8px;
+}
+
+.nazvaniea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nazvanie {
+    margin-left: 10px;
+}
+
+.janr {
+    position: absolute;
+    left: 185px;
+    top: 30px;
+}
+
+
+.janr2 {
+    position: absolute;
+    left: 185px;
+    top: 55px;
+}
+
+.janra {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.vremya {
+    position: absolute;
+    left: 185px;
+    top: 60px;
+}
+
+.vremya2 {
+    position: absolute;
+    left: 185px;
+    top: 85px;
+}
+
+.vremyaa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.pokupka {
+    position: absolute;
+    right: 13px;
+    bottom: 15px;
+    font-size: 15px;
+}
+
+.pokupkaa {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #fcc419;   
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.pokupkaa:hover {
+    background: #c99b12;
+}
+
+.pokupkapng {
+    position: absolute;
+    right: 110px;
+    top: 1px;
+}
+
+.footer1 {
+    background: rgb(56, 56, 56);
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.footer2 {
+    background: rgb(56, 56, 56);
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+
+.okno {
+    width: 1450px;
+    height: 1500px;
+    background: #444343;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.poster {
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.infofilm {
+    width: 1000px;
+    height: 480px;
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.film {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(233, 232, 232);
+}
+
+.opisaniefilma {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+    margin-top: 5px;
+}
+
+.stats {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 5px;
+    position: absolute;
+    color: #b4b4b4;
+    font-weight: 100;
+}
+
+.stats2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 5px;
+    position: absolute;
+    color: #e9e6e6;
+    font-weight: 400;
+}
+
+.yacheyka {
+    position: relative;
+    height: 40px;
+    width: 1000px;
+    top: 5px;
+}
+
+.liniya1 {
+    width: 230px;
+    margin-left: 0;
+    top: 30px;
+    position: absolute;
+    background-color: #fcc419;
+    height: 1px;
+    border: #fcc419;
+}
+
+.bron{
+    text-align: center;
+    color: white;
+    font-size: 7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.zagolovok2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e9e6e6;
+    font-weight: 50;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 23px;
+    text-align: center;
+}
+.dvaokna {
+    display: flex;
+}
+
+.yacheyki2 {
+    position: absolute;
+    left: 850px;
+}
+
+.liniya2 {
+    width: 755px;
+    margin-left: 0;
+    top: 30px;
+    position: absolute;
+    background-color: #fcc419;
+    border: #fcc419 ;
+    height: 1px;
+}
+
+.opisanieb {
+    margin-top: 50px;
+    width: 1000px;
+    height: 700px;
+    margin-left: 0px;
+}
+
+.opisanief {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.kinopoisk1 {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 95px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(168, 168, 168);
+}
+
+
+
+.kinopoisk2 {
+    position: absolute;
+    margin-top: 492px;
+    margin-left: 230px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(168, 168, 168);
+}
+
+.kinopoisk3 {
+    position: absolute;
+    margin-top: 545px;
+    margin-left: 99px;
+}
+
+.footertc {
+    position: absolute;
+    top: 10px;
+    margin-bottom: 0;
+}
+
+.footertext1 {
+    color: #8b8b8b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.footertext2 {
+    color: #8b8b8b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+main {
+    padding-bottom: 100px;
+}
+.wrap {
+    min-height: 100%;
+}
+
+.cinemaHall {
+    text-align: center;
+}
+
+.seat {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #999999;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.assageBetween {
+    height: 15px;
+    width: 100%;
+    display: block;
+}
+
+.bay {
+    background-color: #fcc419;
+}
+
+  .booking {
+    display: flex;
+    margin-left: 135px;
+    margin-top: 0;
+}
+
+  .bookingsistem {
+    margin-top: 80px;
+    width: 300px;
+    height: 400px;
+    background: #707070;
+    border-radius: 10px;
+    margin-left: 100px;
+    border: 3px solid #a3a3a3;
+}
+
+  .select1 {
+    background: #444343;
+    color: #e7e7e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #6e6e6e;
+    margin-top: 5px;
+}
+
+.vibor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: #292929;
+}
+
+.date {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.time {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.select2 {
+    background: #444343;
+    color: #e7e7e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 278px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px solid #6e6e6e;
+    margin-top: 5px;
+}
+
+.pincode {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.select3 {
+    background: #fcc419;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fcc419;
+    margin-top: 5px;
+}
+
+.select3:hover {
+    background: #c99b12;
+    border: 1px solid #c99b12;
+}
+
+.oplata {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.razdelenie {
+    margin-top:100px;
+    margin-left: 540px;
+}
+
+.ticketbuy {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e7e7;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+
+
+.hhh{
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: #fcc419;
+    color: #e9e6e6;
+    width: 500px;
+    height: 55px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:  rgb(56, 56, 56);
+}
+.container h2{
+    color: #fff5f5;
+    font-size:32px;
+    padding:50px 0;
+    text-align: center;
+}
+.price-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+.price-col{
+    background:  #fcc419;   
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-col p{
+    font-size: 22px;
+}
+.price-col h3{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+.price-col h3 span{
+    font-size: 16px;
+}
+.price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+}
+.price-col ul li{
+    margin: 15px 0;
+    size: 20px;
+}
+.price-col button{
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.price-col button:hover{
+    background: #edf0ed;
+}
